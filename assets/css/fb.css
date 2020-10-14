@@ -1,0 +1,135 @@
+body{
+	max-width: 960px;
+	width: 70%;
+	min-width: 300px;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+}
+header{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	font-weight: 600;
+}
+.photog{
+	font-size: 20px;
+	margin-right: auto;
+	flex-shrink: 0;
+	flex-basis: 200px;
+}
+.far{
+	font-size: 20px;	
+}
+.home{
+	flex-basis: 70px;
+	flex-shrink: 0;
+}
+.about{
+	flex-basis: 100px;
+	flex-shrink: 0;
+}
+.contact{
+	flex-basis: 70px;
+	flex-shrink: 0;
+}
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-size: 10px;
+	font-weight: 600;
+}
+.photog2{
+	margin-right: 10px;
+	padding-right: 10px;
+	flex-shrink: 0;
+}
+.home2{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.about2{
+	margin-left: 10px;
+	margin-right: 10px;
+	flex-shrink: 0;
+}
+.contact2{
+	margin-left: 10px;
+}
+.main{
+	display: flex;
+	justify-content: space-between;	 
+	flex-flow: wrap row;
+	align-items: center;
+}
+.block{
+	background-color: wheat;
+	flex-basis: 300px;
+	border: 1px solid whitesmoke;
+	margin-bottom: 10px;
+	flex-shrink: 1;
+}
+.imageblock {
+	width: 300px;
+	height: 250px;
+	background-image: url(../img/12.jpg);
+	background-size: cover;
+}
+.h1block{
+	font-size: 20px;
+	text-align: center;
+	margin-top:-5px;
+	background-color: gray;
+	margin-bottom: -3px;
+}
+h2{
+	font-size: 15px;
+	text-align: center;
+	margin-bottom: -10px;
+}
+.text1{
+	text-align: justify;
+	font-size: 14px;
+	margin-bottom: -1px;
+	padding: 3px;
+}
+.stars{
+	text-align: center;
+}
+.fas{
+	color: orange;
+}
+.footer{
+	height: 25px;
+	width: 300px;
+	background-color: rgb(80, 78, 78);
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.photograf > .fas{
+	color:white;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+.like > .fas{
+	color:white;
+}
+.photograf{
+	color:white;
+	flex-basis: 150px;
+}
+.like{
+	 color: white;
+ 	flex-basis: 30px;
+	 margin-left: auto;
+}
+
+main{
+	margin-left:10px;
+	box-sizing: border-box;
+}
+h1{
+	font-size: 22px;
+}
