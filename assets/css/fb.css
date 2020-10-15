@@ -1,9 +1,4 @@
 body{
-	max-width: 960px;
-	width: 70%;
-	min-width: 300px;
-	font-family: 'Lato', sans-serif;
-	font-family: 'Open Sans', sans-serif;
 	margin: 0px;
 }
 header{
@@ -37,8 +32,9 @@ footer{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	font-size: 10px;
+	font-size: 16px;
 	font-weight: 600;
+	margin-top: 10px;
 }
 .photog2{
 	margin-right: 10px;
@@ -57,9 +53,16 @@ footer{
 .contact2{
 	margin-left: 10px;
 }
+main {max-width: 960px;
+	width: 70%;
+	min-width: 300px;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+}
 .main{
 	display: flex;
-	justify-content: space-between;	 
+	justify-content:between;	 
 	flex-flow: wrap row;
 	align-items: center;
 }
@@ -67,8 +70,8 @@ footer{
 	background-color: wheat;
 	flex-basis: 300px;
 	border: 1px solid whitesmoke;
-	margin-bottom: 10px;
 	flex-shrink: 1;
+	margin: 5px;
 }
 .imageblock {
 	width: 300px;
